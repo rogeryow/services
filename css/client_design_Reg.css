@@ -1,0 +1,106 @@
+body{
+	background-color: white;
+}
+.wrap{
+	width: 700px;
+	margin: auto;
+	background: #00adee;
+	margin-top: 50px;
+	padding: 5px;
+}
+form{
+	padding: 10px;
+	font-family:arial;
+	border: 1px dotted white;
+	color: white;
+}
+h2{
+	text-align:center;
+	background: orange;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+input{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border:none;
+}
+textarea{
+	
+	border-radius: 5px;
+	border:none;
+	resize: none;
+	width: 300px;
+	height: 120px;
+	
+}
+input[type=text], input[type=number], input[type=password]{
+	width:40%;
+}
+input[type=submit]{
+	width: 95%;
+	background: orange;
+	cursor:pointer;
+	font-size: 18px;
+	font-weight: bold;
+	color:white;
+}
+input[type=submit]:hover{
+	background: red;
+}
+select{
+	padding: 10px;
+	width: 32%;
+	border-radius: 5px;
+}
+#butt{
+	width: 95%;
+	background: orange;
+	cursor:pointer;
+	font-size: 18px;
+	font-weight: bold;
+	color:white;
+}
+#butt:hover{
+	background: red;
+}
+.image-file-upload{
+	background-color:blue;
+	padding:50px;
+}
+#nextbutt{
+	width: 95%;
+	background: orange;
+	cursor:pointer;
+	font-size: 18px;
+	font-weight: bold;
+	color:white;
+}
+.file_inner_image {
+	color:white;
+	background-color: #00adee;
+	padding:30px;
+	width:400px;
+	position:center;
+	margin-left:440px;
+}
+.hide 
+{
+	display : none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
