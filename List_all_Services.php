@@ -1,8 +1,8 @@
 <?php
-	include("../connection.php");
+	include("php/connection.php");
 	session_start();
 	if(!isset($_SESSION['Username'])){
-	header("location: ../login.php");
+	header("location: login.php");
 	}
 	$userWelcome = $_SESSION['Username'];
 	$user = $link->query("Select * From `tblclient` Where `Username` = '$userWelcome'");

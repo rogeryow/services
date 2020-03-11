@@ -21,6 +21,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Services On the go</title>
+  <style type="text/css">
+  	.card img {
+	  height: 250px;
+	  object-fit: cover;
+  	}
+  	.services-title {
+  		margin-bottom: 10px;
+  	}
+  	.services-price {
+  		font-size: 90%;
+  		color: #f57224;
+  	}
+  	.services-btn {
+  		margin-top: 30px;
+    	width: 100%;
+  	}
+  </style>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/base/vendor.bundle.base.css">
@@ -152,9 +169,71 @@
                 <div class="d-flex align-items-end flex-wrap">
                   <div class="mr-md-3 mr-xl-5">
 					<?php
-					echo $cduser;
+						echo $cduser;
 					?>
-					<p class="mb-md-0">Services Offered</p>
+					<h3 class="services-title">Services Offered</h3>
+					<!-- pokemon -->
+						<div id="divServices">
+							<div class="card-deck">
+							  <div class="card">
+							    <img src="https://images.all-free-download.com/images/graphiclarge/office_work_background_working_man_desk_icons_decor_6837962.jpg" class="card-img-top" alt="...">
+							    <div class="card-body">
+							      <h5 class="card-title">Aircon Repair</h5>
+							      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							      <p class="card-text"><small class="services-price">₱1,000 - ₱2,000</small></p>
+							      <!-- services button -->
+							      <button type="button" class="services-btn btn btn-secondary">Inquire</button>
+							      <!-- services button -->
+							    </div>
+							  </div>
+							  <div class="card">
+							    <img src="https://images.all-free-download.com/images/graphiclarge/office_work_background_working_man_desk_icons_decor_6837962.jpg" class="card-img-top" alt="...">
+							    <div class="card-body">
+							      <h5 class="card-title">Card title</h5>
+							      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <img src="https://images.all-free-download.com/images/graphiclarge/office_work_background_working_man_desk_icons_decor_6837962.jpg" class="card-img-top" alt="...">
+							    <div class="card-body">
+							      <h5 class="card-title">Card title</h5>
+							      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+							      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							    </div>
+							  </div>
+							</div>
+						</div>
+						<br>
+						<div id="divServices">
+							<div class="card-deck">
+							  <div class="card">
+							    <img src="..." class="card-img-top" alt="...">
+							    <div class="card-body">
+							      <h5 class="card-title">Card title</h5>
+							      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <img src="..." class="card-img-top" alt="...">
+							    <div class="card-body">
+							      <h5 class="card-title">Card title</h5>
+							      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <img src="..." class="card-img-top" alt="...">
+							    <div class="card-body">
+							      <h5 class="card-title">Card title</h5>
+							      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+							      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							    </div>
+							  </div>
+							</div>
+						</div>
+					<!-- pokemon -->
 					<br/><br/>
 					<div style = "cursor:pointer" onclick = "document.getElementById('new-message').style.display = 'block'" class = "white-back">
 					<p align = "center"><a onclick = "(<?php echo $SP_Username = $row['Username']; ?>);"><input value = "Chat" name = "btn_approved" type = "button" 
